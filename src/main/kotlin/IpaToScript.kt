@@ -83,6 +83,10 @@ fun ipaToScript(input: String): String {
     if (letter !in syllabary.keys) {
       translation += letter
     } else {
+      if (i < input.length - 2 && input.substring(i, i+3) in syllabary.keys) {
+        translation += syllabary[input.substring(i, i+3)]!!
+        i += 2
+      }
       if (i < input.length - 1 && input.substring(i, i+2) in syllabary.keys) {
         translation += syllabary[input.substring(i, i+2)]!!
         i++
