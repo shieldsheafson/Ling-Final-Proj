@@ -1,0 +1,26 @@
+   |  ∅   |  i   |  ɪ   |  eɪ  |  ɛ   |  æ   |  ə   |  u   |  ʊ   |  oʊ  |  ɑ   |  aɪ  |  aʊ  |  ɔɪ  |  ɚ   |  
+∅  |      | 0001 | 0010 | 0011 | 0100 | 0101 | 0110 | 0111 | 1000 | 1001 | 1010 | 1011 | 1100 | 1101 | 1110 | 
+p  | oooo | ooou | oouo | oouu | ouoo | ouou | ouuo | ouuu | uooo | uoou | uouo | uouu | uuoo | uuou | uuuo | 
+b  | OOOO | OOOU | OOUO | OOUU | OUOO | OUOU | OUUO | OUUU | UOOO | UOOU | UOUO | UOUU | UUOO | UUOU | UUUO | 
+t  | ooon | ooom | ooun | ooum | ouon | ouom | ouun | ouum | uoon | uoom | uoun | uoum | uuon | uuom | uuun | 
+d  | OOON | OOOM | OOUN | OOUM | OUON | OUOM | OUUN | OUUM | UOON | UOOM | UOUN | UOUM | UUON | UUOM | UUUN | 
+k  | oono | oonu | oomo | oomu | ouno | ounu | oumo | oumu | uono | uonu | uomo | uomu | uuno | uunu | uumo | 
+g  | OONO | OONU | OOMO | OOMU | OUNO | OUNU | OUMO | OUMU | UONO | UONU | UOMO | UOMU | UUNO | UUNU | UUMO | 
+f  | oonn | oonm | oomn | oomm | ounn | ounm | oumn | oumm | uonn | uonm | uomn | uomm | uunn | uunm | uumn | 
+v  | OONN | OONM | OOMN | OOMM | OUNN | OUNM | OUMN | OUMM | UONN | UONM | UOMN | UOMM | UUNN | UUNM | UUMN | 
+θ  | onoo | onou | onuo | onuu | omoo | omou | omuo | omuu | unoo | unou | unuo | unuu | umoo | umou | umuo | 
+ð  | ONOO | ONOU | ONUO | ONUU | OMOO | OMOU | OMUO | OMUU | UNOO | UNOU | UNUO | UNUU | UMOO | UMOU | UMUO | 
+s  | onon | onom | onun | onum | omon | omom | omun | omum | unon | unom | unun | unum | umon | umom | umun | 
+z  | ONON | ONOM | ONUN | ONUM | OMON | OMOM | OMUN | OMUM | UNON | UNOM | UNUN | UNUM | UMON | UMOM | UMUN | 
+ʃ  | onno | onnu | onmo | onmu | omno | omnu | ommo | ommu | unno | unnu | unmo | unmu | umno | umnu | ummo | 
+ʒ  | ONNO | ONNU | ONMO | ONMU | OMNO | OMNU | OMMO | OMMU | UNNO | UNNU | UNMO | UNMU | UMNO | UMNU | UMMO | 
+h  | onnn | onnm | onmn | onmm | omnn | omnm | ommn | ommm | unnn | unnm | unmn | unmm | umnn | umnm | ummn | 
+tʃ | nooo | noou | nouo | nouu | nuoo | nuou | nuuo | nuuu | mooo | moou | mouo | mouu | muoo | muou | muuo | 
+dʒ | NOOO | NOOU | NOUO | NOUU | NUOO | NUOU | NUUO | NUUU | MOOO | MOOU | MOUO | MOUU | MUOO | MUOU | MUUO | 
+m  | NOON | NOOM | NOUN | NOUM | NUON | NUOM | NUUN | ouno | MOON | MOOM | MOUN | MOUM | MUON | MUOM | MUUN | 
+n  | NONO | NONU | NOMO | NOMU | NUNO | NUNU | NUMO | oomo | MONO | MONU | MOMO | MOMU | MUNO | MUNU | MUMO | 
+ŋ  | NONN | NONM | NOMN | NOMM | NUNN | NUNM | NUMN | NUMM | MONN | MONM | MOMN | MOMM | MUNN | MUNM | MUMN | 
+l  | NNOO | NNOU | NNUO | NNUU | NMOO | NMOU | NMUO | NMUU | MNOO | MNOU | MNUO | MNUU | MMOO | MMOU | MMUO | 
+r  | NNON | NNOM | NNUN | NNUM | NMON | NMOM | NMUN | NMUM | MNON | MNOM | MNUN | MNUM | MMON | MMOM | MMUN | 
+w  | NNNO | NNNU | NNMO | NNMU | NMNO | NMNU | NMMO | NMMU | MNNO | MNNU | MNMO | MNMU | MMNO | MMNU | MMMO | 
+j  | NNNN | NNNM | NNMN | NNMM | NMNN | NMNM | NMMN | NMMM | MNNN | MNNM | MNMN | MNMM | MMNN | MMNM | MMMN |
