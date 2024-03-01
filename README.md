@@ -2,11 +2,23 @@
 
 ## Building
 Uses the gradle wrapper.
+
 To Build
-```./gradlew build```
+```
+./gradlew build
+```
+
 To Run
-```./gradlew run```
+```
+./gradlew run
+```
+
 To Run Test Cases
-```./gradlew check```
+```
+./gradlew check
+```
+
 To Build without Running Test Cases
-```./gradlew build -x test```
+```
+./gradlew build -x test
+```
