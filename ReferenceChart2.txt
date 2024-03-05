@@ -1,0 +1,26 @@
+   |  ∅   |  i   |  ɪ   |  eɪ  |  ɛ   |  æ   |  ə   |  u   |  ʊ   |  oʊ  |  ɔ   |  ɑ   |  aɪ  |  aʊ  |  ɔɪ  |  ɚ   |  
+∅  |      | ooou | oouo | oouu | ouoo | ouou | ouuo | ouuu | uooo | uoou | uouo | uouu | uuoo | uuou | uuuo | uuuu | 
+p  | ooon | ooom | ooun | ooum | ouon | ouom | ouun | ouum | uoon | uoom | uoun | uoum | uuon | uuom | uuun | uuum | 
+b  | OOON | OOOM | OOUN | OOUM | OUON | OUOM | OUUN | OUUM | UOON | UOOM | UOUN | UOUM | UUON | UUOM | UUUN | UUUM | 
+t  | oono | oonu | oomo | oomu | ouno | ounu | oumo | oumu | uono | uonu | uomo | uomu | uuno | uunu | uumo | uumu | 
+d  | OONO | OONU | OOMO | OOMU | OUNO | OUNU | OUMO | OUMU | UONO | UONU | UOMO | UOMU | UUNO | UUNU | UUMO | UUMU | 
+k  | oonn | oonm | oomn | oomm | ounn | ounm | oumn | oumm | uonn | uonm | uomn | uomm | uunn | uunm | uumn | uumm | 
+g  | OONN | OONM | OOMN | OOMM | OUNN | OUNM | OUMN | OUMM | UONN | UONM | UOMN | UOMM | UUNN | UUNM | UUMN | UUMM | 
+f  | onoo | onou | onuo | onuu | omoo | omou | omuo | omuu | unoo | unou | unuo | unuu | umoo | umou | umuo | umuu | 
+v  | ONOO | ONOU | ONUO | ONUU | OMOO | OMOU | OMUO | OMUU | UNOO | UNOU | UNUO | UNUU | UMOO | UMOU | UMUO | UMUU | 
+θ  | onon | onom | onun | onum | omon | omom | omun | omum | unon | unom | unun | unum | umon | umom | umun | umum | 
+ð  | ONON | ONOM | ONUN | ONUM | OMON | OMOM | OMUN | OMUM | UNON | UNOM | UNUN | UNUM | UMON | UMOM | UMUN | UMUM | 
+s  | onno | onnu | onmo | onmu | omno | omnu | ommo | ommu | unno | unnu | unmo | unmu | umno | umnu | ummo | ummu | 
+z  | ONNO | ONNU | ONMO | ONMU | OMNO | OMNU | OMMO | OMMU | UNNO | UNNU | UNMO | UNMU | UMNO | UMNU | UMMO | UMMU | 
+ʃ  | onnn | onnm | onmn | onmm | omnn | omnm | ommn | ommm | unnn | unnm | unmn | unmm | umnn | umnm | ummn | ummm | 
+ʒ  | ONNN | ONNM | ONMN | ONMM | OMNN | OMNM | OMMN | OMMM | UNNN | UNNM | UNMN | UNMM | UMNN | UMNM | UMMN | UMMM | 
+h  | nooo | noou | nouo | nouu | nuoo | nuou | nuuo | nuuu | mooo | moou | mouo | mouu | muoo | muou | muuo | muuu | 
+tʃ | noon | noom | noun | noum | nuon | nuom | nuun | nuum | moon | moom | moun | moum | muon | muom | muun | muum | 
+dʒ | NOON | NOOM | NOUN | NOUM | NUON | NUOM | NUUN | NUUM | MOON | MOOM | MOUN | MOUM | MUON | MUOM | MUUN | MUUM | 
+m  | NONO | NONU | NOMO | NOMU | NUNO | NUNU | NUMO | ouno | MONO | MONU | MOMO | MOMU | MUNO | MUNU | MUMO | MUMU | 
+n  | NONN | NONM | NOMN | NOMM | NUNN | NUNM | NUMN | ooon | MONN | MONM | MOMN | MOMM | MUNN | MUNM | MUMN | MUMM | 
+ŋ  | NNOO | NNOU | NNUO | NNUU | NMOO | NMOU | NMUO | NMUU | MNOO | MNOU | MNUO | MNUU | MMOO | MMOU | MMUO | MMUU | 
+l  | nnon | nnom | nnun | nnum | nmon | nmom | nmun | nmum | mnon | mnom | mnun | mnum | mmon | mmom | mmun | mmum | 
+r  | NNON | NNOM | NNUN | NNUM | NMON | NMOM | NMUN | NMUM | MNON | MNOM | MNUN | MNUM | MMON | MMOM | MMUN | MMUM | 
+w  | NNNO | NNNU | NNMO | NNMU | NMNO | NMNU | NMMO | NMMU | MNNO | MNNU | MNMO | MNMU | MMNO | MMNU | MMMO | MMMU | 
+j  | NNNN | NNNM | NNMN | NNMM | NMNN | NMNM | NMMN | NMMM | MNNN | MNNM | MNMN | MNMM | MMNN | MMNM | MMMN | MMMM | 
