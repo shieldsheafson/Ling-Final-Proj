@@ -1,13 +1,13 @@
 package Ling270FinalProj.src.main.kotlin
 
-fun makeVowelsToScriptMap(inputFileName: String): Map<String, String> {
+fun makeVowelsToBinaryMap(inputFileName: String): Map<String, String> {
   val lines = object {}.javaClass.getResourceAsStream("/" + inputFileName)?.bufferedReader()?.readLines()
 
   if (lines == null) {
     throw IllegalArgumentException("Error Processing File: $inputFileName")
   }
 
-  val vowelsToScript = mutableMapOf<String, String>()
+  val vowelsToBinary = mutableMapOf<String, String>()
 
   for (line in lines) {
     val vowelNumber = line.split(" = ")[0]
@@ -15,10 +15,19 @@ fun makeVowelsToScriptMap(inputFileName: String): Map<String, String> {
 
     val vowelSymbol = line.split(" = ")[1]
 
-    // vowel number in binary is the vowel in script
-    vowelsToScript.put(vowelSymbol, vowelNumberInBinary)
+    if (vowelSymbol != "null") {
+      vowelsToBinary.put(vowelSymbol, vowelNumberInBinary)
+    }
   }
 
+  return vowelsToBinary
+}
+
+fun makeVowelsToScriptMap(vowelsAsBinary: Map<String, String>): Map<String, String> {
+  val vowelsToScript = mutableMapOf<String, String>()
+  for (binary in vowelsAsBinary) {
+    vowelsToScript.put(binary.key, encodeVowelOnTopOfConsonant("oooo", binary.value))
+  }
   return vowelsToScript
 }
 
@@ -32,19 +41,21 @@ fun makeConsonantsToScriptMap(inputFileName: String): Map<String, String> {
   val consonantsToScript = mutableMapOf<String, String>()
 
   for (line in lines) {
-    val consonantNumber = line.split(" = ")[0].toInt()
-    val consonantNumberInBinary = Integer.toBinaryString(consonantNumber)
-    val consonantInScript = consonantNumberInBinary.replace('0', 'o').replace('1', 'n').padStart(4, 'o')
+    if (line.split(" = ")[1] != "null") {
+      val consonantNumber = line.split(" = ")[0].toInt()
+      val consonantNumberInBinary = Integer.toBinaryString(consonantNumber)
+      val consonantInScript = consonantNumberInBinary.replace('0', 'o').replace('1', 'n').padStart(4, 'o')
 
-    val consonantSymbols = line.split(" = ")[1].replace("(", "").replace(")", "").split(", ")
-    val voicelessConsonantSymbol =  consonantSymbols[0]
-    val voicedConsonantSymbol = consonantSymbols[1]
+      val consonantSymbols = line.split(" = ")[1].replace("(", "").replace(")", "").split(", ")
+      val voicelessConsonantSymbol =  consonantSymbols[0]
+      val voicedConsonantSymbol = consonantSymbols[1]
 
-    if (voicelessConsonantSymbol != "null") {
-      consonantsToScript.put(voicelessConsonantSymbol, consonantInScript)
-    }
-    if (voicedConsonantSymbol != "null") {
-      consonantsToScript.put(voicedConsonantSymbol, consonantInScript.uppercase())
+      if (voicelessConsonantSymbol != "null") {
+        consonantsToScript.put(voicelessConsonantSymbol, consonantInScript)
+      }
+      if (voicedConsonantSymbol != "null") {
+        consonantsToScript.put(voicedConsonantSymbol, consonantInScript.uppercase())
+      }
     }
   }
   
@@ -79,9 +90,10 @@ fun addConsonantVowelPairsToConsonantMap(consonants: Map<String, String>, vowels
 }
 
 fun ipaToScript(input: String): String {
-  val vowels = makeVowelsToScriptMap("vowels.txt")
+  val vowelsAsBinary = makeVowelsToBinaryMap("vowels.txt")
+  val vowels = makeVowelsToScriptMap(vowelsAsBinary)
   val consonants = makeConsonantsToScriptMap("consonants.txt")
-  val consonantVowelPairs = addConsonantVowelPairsToConsonantMap(consonants, vowels)
+  val consonantVowelPairs = addConsonantVowelPairsToConsonantMap(consonants, vowelsAsBinary)
   val syllabary = consonantVowelPairs + vowels
 
   var translation = mutableListOf<String>()
@@ -110,7 +122,7 @@ fun ipaToScript(input: String): String {
     i++
   }
 
-  // println(syllabary)
+  println(syllabary) 
   return translation.reversed().joinToString(" ")
 }
 
